@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="user-text" />
+      <br />
+      <br />
+      <input
+        type="submit"
+        value="Create Cipher"
+        onclick="getUserText(event)"
+        id="cipher-butt"
+      />
+    </form>
+    <br />
+    <!-- <br>
+    <br> -->
+    <div id="cipher">
+      <p>The Cipher Text For The Entered Text Is: <b id="cipher-result"></b></p>
+      <br />
+      <br />
+      <button onclick="plainText(event)" id="plain-butt">Convert To Plain</button>
+    </div>
+    <div id="plain">
+      <br />
+      <p>The Plain Text For The Cipher Text Is: <b id="plain-result"></b></p>
+    </div>
+    <br>
+    <script src="./app.js"></script>
+  </body>
+</html>

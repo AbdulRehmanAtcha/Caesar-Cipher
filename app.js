@@ -72,12 +72,12 @@ const plainText = (e) => {
       var index = alphabets.indexOf(cipherText[i]);
 
       if (index == 0) {
-        index = 23;
+        index = 26;
       } else if (index == 1) {
-        index = 24;
+        index = 27;
       }
       if (index == 2) {
-        index = 25;
+        index = 28;
       }
       backToUser += alphabets[index - 3];
     }
